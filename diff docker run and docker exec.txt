@@ -1,0 +1,40 @@
+diff docker run and docker exec?
+detached mode?start?end  docker
+docker logs <container id>
+
+volumes -->
+docker volume create myvolume
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\aktiw> docker volume create myvolume
+myvolume
+PS C:\Users\aktiw> docker volume ls
+DRIVER    VOLUME NAME
+local     myvolume
+PS C:\Users\aktiw> docker network ls
+NETWORK ID     NAME      DRIVER    SCOPE
+da2d7b732ab8   bridge    bridge    local
+2f7e32da37ad   host      host      local
+f932ea51e115   none      null      local
+PS C:\Users\aktiw> docker volume rm myvolume   
+myvolume
+PS C:\Users\aktiw> docker network ls        
+NETWORK ID     NAME      DRIVER    SCOPE
+da2d7b732ab8   bridge    bridge    local
+2f7e32da37ad   host      host      local
+f932ea51e115   none      null      local
+PS C:\Users\aktiw> docker volume ls
+DRIVER    VOLUME NAME
+PS C:\Users\aktiw>
+
+
+docker network -->
+docker network create mynetwork
+docker network ls
+docker network inspect network_name
+
+docker cleanup commands -->
