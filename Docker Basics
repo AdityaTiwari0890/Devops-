@@ -201,3 +201,18 @@ Characteristics:
 
 
                                           DAY - 8 ---------------------------->
+
+
+Private Image Registries:
+Pvt Reg restrict access using authentication and authorization.
+
+Char:
+1. Secure and controlled access
+2. Used in enterprises 
+3. Stores proprietary applications
+4. Integrated with IAM and BRAC
+
+Examples:
+1. AWS Elastic Container Registry (ECR)
+2. Azure Container Registry (ACR)
+3. GitHub Container Registry (GHR)
