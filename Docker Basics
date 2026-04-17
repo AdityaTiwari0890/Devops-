@@ -265,3 +265,27 @@ cat /data/test.txt
 echo "Second line added" >> /data/test.txt
 cat /data/test.txt
 exit
+
+
+
+
+
+
+
+
+
+												DAY - 11 --------------------------------------->
+At
+docker pull ubuntu
+C:\app\data
+docker run -it --name my_app -e APP ENV=production -v C:\app\data:/data ubuntu /bin/bash
+echo $APP ENV
+echo "Hello this is my first program" > /data/test.txt
+cat /data/test.txt
+echo "Second line added" >> /data/test.txt
+cat /data/test.txt
+exit
+
+
+
+
