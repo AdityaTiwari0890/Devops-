@@ -216,3 +216,33 @@ Examples:
 1. AWS Elastic Container Registry (ECR)
 2. Azure Container Registry (ACR)
 3. GitHub Container Registry (GHR)
+
+
+
+                                         DAY - 9 --------------------------------->
+
+8. ps -a
+To list all the docker containers running/exited/stopped with
+container details
+$ docker ps -a
+9. exec
+• Access the docker container and run commands inside the container
+in bash
+$ docker exec
+-it 09ca6feb6efc bash/env
+09ca6feb6efc --- it is ld of the container
+IO. Removin container
+• Remove the docker container with container id mentioned in
+the command.
+$ docker rm 9b6343d3b5a0
+Run the below command to check if the container got removed or
+not.
+$ docker ps -a
+I l. Removing image
+• Remove the docker image with the docker image id men lone in
+the command
+$ docker rmi fce289e99eb9
+
+
+                                        DAY - 10 ---------------------------------->
+
